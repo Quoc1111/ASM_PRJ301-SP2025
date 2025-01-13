@@ -12,4 +12,14 @@ package models;
 public class NewClass {
     private String tacgia;
     private String tacpham;
+
+    public NewClass() {
+    }
+
+    public NewClass(String tacgia, String tacpham) {
+        this.tacgia = tacgia;
+        this.tacpham = tacpham;
+    }
+    
+    
 }
